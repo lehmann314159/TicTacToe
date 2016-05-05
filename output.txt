@@ -1,0 +1,167 @@
+PHPUnit 4.7.6 by Sebastian Bergmann and contributors.
+
+Fhi
+a
+b
+c
+d
+e
+0
+array (
+)4Z
+There are 4 strats...
+Strand has size: 0)
+1
+rand is: 2...
+2
+3
+Strand has size: (base=0, trial=1, strand=1)
+There are 4 strats...
+Strand has size: 1)
+1
+rand is: 2...
+2
+3
+Strand has size: (base=0, trial=1, strand=1)
+There are 4 strats...
+Strand has size: 1)
+1
+rand is: 3...
+2
+3
+Strand has size: (base=0, trial=2, strand=2)
+There are 4 strats...
+Strand has size: 2)
+1
+rand is: 0...
+2
+3
+Strand has size: (base=0, trial=3, strand=3)
+There are 4 strats...
+Strand has size: 3)
+1
+rand is: 1...
+2
+3
+Strand has size: (base=0, trial=4, strand=4)
+f
+hi
+DNABot::__set_state(array(
+   '_Base' => 
+  array (
+  ),
+   '_Trial' => 
+  array (
+    0 => 2,
+    1 => 3,
+    2 => 0,
+    3 => 1,
+  ),
+   '_Side' => 'X',
+))hi
+'DNABot'hey...
+a
+b
+c
+d
+e
+0
+array (
+)4Z
+There are 4 strats...
+Strand has size: 0)
+1
+rand is: 1...
+2
+3
+Strand has size: (base=0, trial=1, strand=1)
+There are 4 strats...
+Strand has size: 1)
+1
+rand is: 0...
+2
+3
+Strand has size: (base=0, trial=2, strand=2)
+There are 4 strats...
+Strand has size: 2)
+1
+rand is: 0...
+2
+3
+Strand has size: (base=0, trial=2, strand=2)
+There are 4 strats...
+Strand has size: 2)
+1
+rand is: 0...
+2
+3
+Strand has size: (base=0, trial=2, strand=2)
+There are 4 strats...
+Strand has size: 2)
+1
+rand is: 1...
+2
+3
+Strand has size: (base=0, trial=2, strand=2)
+There are 4 strats...
+Strand has size: 2)
+1
+rand is: 1...
+2
+3
+Strand has size: (base=0, trial=2, strand=2)
+There are 4 strats...
+Strand has size: 2)
+1
+rand is: 2...
+2
+3
+Strand has size: (base=0, trial=3, strand=3)
+There are 4 strats...
+Strand has size: 3)
+1
+rand is: 1...
+2
+3
+Strand has size: (base=0, trial=3, strand=3)
+There are 4 strats...
+Strand has size: 3)
+1
+rand is: 1...
+2
+3
+Strand has size: (base=0, trial=3, strand=3)
+There are 4 strats...
+Strand has size: 3)
+1
+rand is: 1...
+2
+3
+Strand has size: (base=0, trial=3, strand=3)
+f
+hi
+DNABot::__set_state(array(
+   '_Base' => 
+  array (
+  ),
+   '_Trial' => 
+  array (
+    0 => 1,
+    1 => 0,
+    2 => 2,
+  ),
+   '_Side' => 'X',
+))hi
+
+
+Time: 172 ms, Memory: 11.75Mb
+
+There was 1 failure:
+
+1) DNABotTest::testBase
+Failed asserting that 1 is true.
+
+/Users/mike/Cakelandia/TicTacToe/DNABotTest.php:19
+
+FAILURES!
+Tests: 1, Assertions: 1, Failures: 1.

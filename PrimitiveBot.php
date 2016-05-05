@@ -11,7 +11,7 @@ class PrimitiveBot extends AbstractBot {
 
 		// Block a loss if I can
 		#print "\ttrying to avoid losing...\n";
-		$cMove = TTTility::blockFirstLossOpportunity($this->getSide(), $inState);
+		$cMove = TTTility::findFirstLossBlockOpportunity($this->getSide(), $inState);
 		if ($cMove) { return $cMove; }
 
 		// center if I can

@@ -1,5 +1,6 @@
 <?php
 
+// Base Class For Bots
 require_once("TicTacToeState.php");
 
 abstract class AbstractBot {

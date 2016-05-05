@@ -1,12 +1,11 @@
 <?php
 
 require_once("AbstractBot.php");
-require_once("PrimitiveBot.php");
-require_once("RandomBot.php");
 
 class BotFactory {
 	static public function generateBot($inType, $inSide) {
 		$className = "{$inType}Bot";
+		require_once("$className.php");
 		if (class_exists($className))
 			{ return new $className($inSide); }
 		else

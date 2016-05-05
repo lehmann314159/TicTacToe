@@ -4,8 +4,8 @@ require_once("TicTacToeState.php");
 require_once("BotFactory.php");
 
 $myGame = new TicTacToeState();
-$myX    = BotFactory::generateBot("Random", "X");
-$myO    = BotFactory::generateBot("Primitive", "O");
+$myX    = BotFactory::generateBot("DNA", "X");
+$myO    = BotFactory::generateBot("DNA", "O");
 
 $returnedMove = [];
 $results["X"] = 0;
