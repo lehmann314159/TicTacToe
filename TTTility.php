@@ -83,8 +83,8 @@ class TTTility {
 	// Run the function from the bingo ball
 	static public function executeByNumber($inNumber, $inMarker, $inState, $inGuidance = null) {
 		$stratList = self::getStrats();
-		if ($inNumber >= count($stratList)) { return false; }
-		return $stratList[$inNumber]($inMarker, $inState, $inGuidance);
+		if ($inNumber >= count($stratList)) { return null; }
+		return self::$stratList[$inNumber]($inMarker, $inState, $inGuidance);
 	}
 
 	static public function executeByName($inName, $inMarker, $inState, $inGuidance = null) {
